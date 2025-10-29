@@ -46,31 +46,6 @@ pip install -U pandas numpy matplotlib seaborn plotly scipy statsmodels
 ### Data_analysis_work_example.ipynb
 **Focus:** EDA on an education/course dataset, workload estimation, temporal trends, and basic inference.
 
-**Sections:**
-- # I. Data descripion
-- # II. Calculation of the potential load on teachers
-- ##### 2.1. Calculation of student growth in each course in each month for each month in the range from March 2016 to July 2019 inclusive
-- ##### 2.2 line-graph with the growth of students in each month for each course. 15 charts
-- ##### 2.3. line-graph with several lines reflecting the growth of students in each month for each course. 15 lines on the chart.
-- ##### 2.4. Number of homework progresses in each month throughout history (each month in the range from March 2016 to July 2019 inclusive) for each course. Take into account that completing homework can flow from one month to another (such tasks must be included in the total number of progress for all months covered by the deadline for completing these tasks)
-- #### data frame preparation for merging
-- ##### 2.5. Plots
-- ##### 2.6. All in one plot
-- ##### 2.7. Conclusion
-- # III. Identifying problematic modules
-- ##### 3.1. Calculate the minimum, maximum, average, median time for completing each module
-- ##### 3.2. line-graph with median completion time for each module for each course.
-- ##### 3.3. To identify seasonality, calculate the median homework completion time by month (12 months, January-December) for each course.
-- ##### 4. line-graph
-- ##### 3.5. Conclusion
-- ## IV. Conversion calculation
-- ##### 4.1. Conversion of students' transition from one module to another in each course.
-- ##### Hypotheses
-- ##### 4.2. Bar-chart, reflecting the conversion of students from one module to another in each course.
-- ##### 4.3. Horizontal bar-chart, reflecting the conversion of students from one module to another in each course. 15 charts.
-- ##### 4.4. Conclusion
-- # V. Performance metrics
-
 **Imports used:** functools, matplotlib, numpy, pandas, seaborn
 
 ---
